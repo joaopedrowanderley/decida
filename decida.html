@@ -66,12 +66,12 @@
         function adcionarp(){
             totalp = totalp + Number(document.querySelector('input[name="valorp"]:checked').value)
             $("#motivosp").append('<br><input type="text" name="motivo"><br><label>O quanto isso é importante</label><br><input type="radio" name="valorp" value="1"><label>1</label><input type="radio" name="valorp" value="2"><label>2</label><input type="radio" name="valorp" value="3"><label>3</label><button type="button" name="add" onclick="adcionarp()">+</button>')
-            $("#motivosp").append(totalp)
+            
         }
         function adcionarn(){
             totaln = totaln + Number(document.querySelector('input[name="valorn"]:checked').value)
             $("#motivosn").append('<br><input type="text" name="motivo"><br><label>O quanto isso é importante</label><br><input type="radio" name="valorn" value="1"><label>1</label><input type="radio" name="valorn" value="2"><label>2</label><input type="radio" name="valorn" value="3"><label>3</label><button type="button" name="add" onclick="adcionarn()">+</button>')
-            $("#motivosn").append(totaln)
+            
         }
 
         var total = totalp - totaln
